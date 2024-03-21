@@ -7,13 +7,13 @@
 //  *********
 // ***********
 // (Hint: there is a line break \n at the end of the figure, which is also counted in the tests.
-const lines = 6;
+const lines = 5 ;
 let result = '';
-for(i = 0; i < lines; i++){
-    for(j = 0; j < lines - i; j++){
+for(let i = 0; i <= lines; i++){
+    for(let j = 0; j < lines - i; j++){
         result += " ";
     }
-    for(j = 0; j < 2 * i + 1; j++){
+    for(let j = 0; j < 2 * i + 1; j++){
         result += "*";
     }
     result += "\n"
